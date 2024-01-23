@@ -14,20 +14,11 @@
     height: 100vh;
     display: grid;
     gap: 2em;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-columns: repeat(4, 1fr) repeat(2, auto);
-
-    grid-template-columns: repeat(2, 1fr);
 
 
 }
 
-.gallery{
-    grid-template-columns: inherit;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: 400px;
-    place-content: center;
-}
+
 
 
 .box1{
