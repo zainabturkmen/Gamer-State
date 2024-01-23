@@ -22,7 +22,8 @@
 
 .gallery{
     /* grid-template-columns: inherit; */
-    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: 400px;
 
 }
 
