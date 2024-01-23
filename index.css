@@ -22,10 +22,9 @@
 
 .gallery{
     /* grid-template-columns: inherit; */
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 40px);
     grid-template-rows: 400px;
 
-    align-content: flex-start ;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
