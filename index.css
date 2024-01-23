@@ -26,5 +26,6 @@
     grid-template-rows: 400px;
 
     align-content: flex-start ;
+    justify-content: space-between;
 }
 
