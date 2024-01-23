@@ -3,7 +3,15 @@ body{
 
 }
 
-.gallery{
+.gallery > div {
+    background: rgb(75, 111, 99);
+    color: white;
+    font-size: 3rem;
+} 
+
+
+/* .gallery{
     background-color: rgb(75, 111, 99);
     color: white;
-}
+    font-size: 3rem;
+} */
