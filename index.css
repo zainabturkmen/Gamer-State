@@ -19,12 +19,12 @@
             "col col col"
             "footer footer footer";
     grid-template-columns: 30%;
-    grid-template-rows: repeat(2);
+    /* grid-template-rows: repeat(3); */
 }
 
 .box5{
     display: grid;
     /* grid-area: footer; */
-    /* grid-column: 3/5; */
+    grid-column: 3/5;
     
 }
