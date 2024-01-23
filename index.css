@@ -24,7 +24,6 @@
     /* grid-template-columns: inherit; */
     grid-template-columns: repeat(3, 40px);
     grid-template-rows: 400px;
-
-    justify-content:center;
+    place-content: ;
 }
 
