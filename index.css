@@ -16,12 +16,13 @@
     gap: .2em;
     grid-template-areas: 
             "header . "
-            ". .";
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 40% auto; */
+            "header .";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200% 1fr; */
 }
 
 .box1{
-    grid-column: 2/4;
+    /* grid-row: 1/3; */
+    grid-area: header;
 }
 
