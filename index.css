@@ -14,11 +14,9 @@
 .gallery{
     display: grid;
     gap: .2em;
-    /* grid-template-areas: 
-            "header . "
-            "header ."; */
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80% 1fr; */
+    grid-template-rows: 80% 1fr; 
+    border-radius: 50px;
 }
 
 .box1{
