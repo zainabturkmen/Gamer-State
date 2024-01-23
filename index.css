@@ -12,15 +12,19 @@
 
 .gallery{
     height: 100px;
+    height: 100vh;
     display: grid;
     gap: .2em;
     grid-template-areas: 
             ". . ."
             ". col col";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40% 1fr;
 }
 
 .box5{
     display: grid;
+    /* grid-column: 2/4; */
     grid-area: col;
     
 }
