@@ -23,14 +23,14 @@
 }
 
 .gallery{
-    /* grid-template-columns: inherit; */
+    grid-template-columns: inherit;
     grid-template-columns: repeat(3, 80px);
     grid-template-rows: 400px;
     place-content: center;
 }
 
 
-box1{
+.box1{
     display: grid;
-    grid-row: 2/3;
+    grid-row: 1/3;
 }
