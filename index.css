@@ -8,6 +8,7 @@
     color: #ffffff;
     font-size: 3rem;
     text-align: center;
+    border-radius: 10px;
 } 
 
 
@@ -16,7 +17,6 @@
     gap: .2em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 1fr; 
-    border-radius: 50px;
 }
 
 .box1{
