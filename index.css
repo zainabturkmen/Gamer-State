@@ -18,14 +18,19 @@
     grid-template-columns: repeat(4, 1fr) repeat(2, auto);
 
     grid-template-columns: repeat(2, 1fr);
+
+
 }
 
 .gallery{
     /* grid-template-columns: inherit; */
-    grid-template-columns: repeat(3, 40px);
+    grid-template-columns: repeat(3, 80px);
     grid-template-rows: 400px;
-    place-content: ;
+    place-content: center;
 }
 
 
-
+box1{
+    display: grid;
+    grid-row: 2/3;
+}
