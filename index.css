@@ -4,5 +4,6 @@ body{
 }
 
 .gallery{
-
+    background-color: rgb(75, 111, 99);
+    color: white;
 }
