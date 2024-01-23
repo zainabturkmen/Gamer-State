@@ -17,4 +17,6 @@
     gap: 2em;
     grid-template-columns: repeat(6, 1fr);
     grid-template-columns: repeat(4, 1fr) repeat(2, auto);
+
+    grid-template-columns: repeat(2, 1fr);
 }
