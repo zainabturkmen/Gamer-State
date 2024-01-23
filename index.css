@@ -18,7 +18,7 @@
     grid-template-rows: 80% 1fr; 
 } 
  
-.box1{
+.box1{ 
     grid-row: 1/3;
 } 
 
