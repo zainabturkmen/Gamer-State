@@ -14,10 +14,5 @@
     height: 100vh;
     display: grid;
     gap: 2em;
-}
-
-.box1{
-    display: grid;
-    grid-column: 1/3;
-    grid-row: 2/4;
+    
 }
