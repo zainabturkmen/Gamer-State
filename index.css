@@ -5,7 +5,7 @@
 
 .gallery > div {
     background: rgb(75, 111, 99);
-    color: white;
+    color: #ffffff;
     font-size: 3rem;
     text-align: center;
 } 
@@ -21,6 +21,8 @@
 }
 
 .gallery{
-    grid-template-columns: inherit;
+    /* grid-template-columns: inherit; */
+    grid-template-columns: repeat(3, 80px);
+
 }
 
