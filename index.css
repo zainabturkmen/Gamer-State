@@ -14,10 +14,10 @@
     height: 100vh;
     display: grid;
     gap: .2em;
-    grid-template-areas: 
+    /* grid-template-areas: 
             "header header header"
             "col col col"
-            "footer footer footer";
+            "footer footer footer"; */
     grid-template-columns: 30%;
     grid-template-rows: 30%;
 }
