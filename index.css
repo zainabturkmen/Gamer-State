@@ -24,7 +24,7 @@
 
 .gallery{
     grid-template-columns: inherit;
-    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(3, 100px);
     grid-template-rows: 400px;
     place-content: center;
 }
@@ -32,5 +32,6 @@
 
 .box1{
     display: grid;
-    grid-row: 1/3;
+    grid-column: 1/3;
+    grid-row: 2/4;
 }
