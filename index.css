@@ -19,7 +19,6 @@
             "col col col"
             "footer footer footer";
     grid-template-columns: 30%;
-    grid-template-rows: repeat(3);
 }
 
 .box5{
