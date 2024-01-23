@@ -20,3 +20,7 @@
 
     grid-template-columns: repeat(2, 1fr);
 }
+
+.gallery{
+    grid-template-columns: inherit;
+}
