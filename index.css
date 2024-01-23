@@ -18,7 +18,7 @@
             "header . "
             "header ."; */
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200% 1fr; */
+    grid-template-rows: 80% 1fr; */
 }
 
 .box1{
@@ -26,9 +26,5 @@
 }
 
 .box3{
-    height: 100px;
-}
-
-.box2{
-    
+    height: 180px;
 }
