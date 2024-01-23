@@ -18,7 +18,7 @@
             "header header"
             "col col"
             "footer footer";
-    grid-template-columns: 70% 1fr;
+    grid-template-columns: 70% 2fr;
 }
 
 /* .box1{
