@@ -25,5 +25,6 @@
     grid-template-columns: repeat(3, 400px);
     grid-template-rows: 400px;
 
+    align-content: center ;
 }
 
