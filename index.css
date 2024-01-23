@@ -21,7 +21,6 @@
 
 .box5{
     display: grid;
-    /* grid-column: 2/4; */
     grid-area: col;
     
 }
