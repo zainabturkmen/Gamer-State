@@ -8,13 +8,13 @@
     color: #ffffff;
     font-size: 3rem;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
 } 
 
 
 .gallery{
     display: grid;
-    gap: .2em;
+    gap: 1em;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80% 1fr; 
 }
@@ -24,5 +24,5 @@
 }
 
 .box3{
-    height: 180px;
+    height: 250px;
 }
