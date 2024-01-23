@@ -19,13 +19,13 @@
             ". . ."
             ". col col";
             /* "footer footer footer"; */
-    grid-template-columns: repeat(100%, 1fr);
-    grid-template-rows: 50% 1fr;
+    /* grid-template-columns: repeat(100%, 1fr); */
+    /* grid-template-rows: 50% 1fr; */
 }
 
 .box5{
     display: grid;
-    grid-column: 2/4;
+    /* grid-column: 2/4; */
     grid-area: col;
     
 }
