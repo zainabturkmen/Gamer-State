@@ -14,7 +14,10 @@
     height: 100vh;
     display: grid;
     gap: 2em;
-    
+    grid-template-areas: 
+            "header header"
+            "col col";
+            "footer footer";
 }
 
 /* .box1{
