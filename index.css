@@ -12,6 +12,7 @@ body{
     width: 700px;
     background-color: #EAEEF4;
     padding: 2em;
+    padding-bottom: 3em;
     height: 200px;
     display: grid;
     grid-template-areas: 
@@ -47,12 +48,22 @@ body{
     margin-top: 2em;
     margin-left: -1.5em;
 }
+
 .case p{
     font-size: 1.3em;
-    margin-left: 1em;
 }
 
-.Days{grid-area: Days;}
+.Days{
+    grid-area: Days;
+    margin-left: 1em;
+
+}
+
+.Days p, .min p, .sec p{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: -0.5em;
+}
 
 .min{grid-area: min;}
 
