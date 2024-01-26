@@ -14,10 +14,16 @@ body{
     height: 400px;
     display: grid;
     grid-template-areas: 
-        "";
+        "pro pro case"
+        "Days min sec";
 }
 
+.pro{grid-area: pro;}
 
-.pro{
-    
-}
+.case{grid-area: case;}
+
+.Days{grid-area: Days;}
+
+.min{grid-area: min;}
+
+.sec{grid-area: sec;}
