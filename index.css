@@ -5,6 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #CED5E1;
 }
 
 .container{
@@ -18,7 +19,25 @@ body{
         "Days min sec";
 }
 
-.pro{grid-area: pro;}
+.pro{
+    grid-area: pro;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 9px;
+    width: 470px;
+    height: 118px;
+    padding-left: 2em;
+}
+
+.pro img{
+    width: 48px;
+    height: 48px;
+}
+
+.pro h1{
+    
+}
 
 .case{grid-area: case;}
 
