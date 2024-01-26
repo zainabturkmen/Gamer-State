@@ -36,7 +36,10 @@ body{
 }
 
 .pro h1{
-    
+    color: #0E53CA;
+    font-size: 2em;
+    padding-left: .5em;
+    font-family: 'Inter';
 }
 
 .case{grid-area: case;}
