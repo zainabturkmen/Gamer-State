@@ -49,6 +49,7 @@ body{
 }
 .case p{
     font-size: 1.3em;
+    margin-left: 1em;
 }
 
 .Days{grid-area: Days;}
