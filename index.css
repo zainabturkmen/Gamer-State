@@ -12,7 +12,7 @@ body{
     width: 700px;
     background-color: #EAEEF4;
     padding: 2em;
-    height: 400px;
+    height: 200px;
     display: grid;
     grid-template-areas: 
         "pro pro case"
@@ -42,7 +42,14 @@ body{
     font-family: 'Inter';
 }
 
-.case{grid-area: case;}
+.case{
+    grid-area: case;
+    margin-top: 2em;
+    margin-left: -1.5em;
+}
+.case p{
+    font-size: 1.3em;
+}
 
 .Days{grid-area: Days;}
 
