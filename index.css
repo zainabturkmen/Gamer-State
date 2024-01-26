@@ -13,5 +13,7 @@ body{
     padding: 2em;
     height: 400px;
     display: grid;
+    grid-template-areas: 
+        "";
 }
 
